@@ -10780,7 +10780,7 @@ body {
 }
 
 .main-element {
-  background: url("../images/Stone_transparent_15%.png") no-repeat center center fixed;
+  background: url("../images/stone.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -11030,7 +11030,7 @@ h1, .h1 {
 }
 
 .contact {
-  background: url("../images/rock_transparent_15%.png") no-repeat center center fixed;
+  background: url("../images/rock.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
