@@ -17,7 +17,7 @@ body {
 }
 
 .main-element {
-    background: url("../images/stone.png"); 
+    background: url("../images/stone.png") no-repeat center center fixed; 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -254,7 +254,7 @@ h1 {
   }
 
   .contact {
-    background: url("../images/rock.png"); 
+    background: url("../images/rock.png") no-repeat center center fixed; 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
