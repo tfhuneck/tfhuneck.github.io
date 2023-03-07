@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout Example</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<header class="grid-header">
+    <h1>Create a Grid and play around with it!</h1>
+</header>
+<body class="body-grid">
+    <span id="info">Enter Grid Size</span>
+    <form action="grid.html" id="gridsize">
+        <input type="number" name="gridsize" id="size" placeholder="Enter a number">
+    </form>
+
+    <button class="resetbutton grid-button" onclick ="reset()">
+        Reset
+    </button>
+
+    <button class="gridButton grid-button" onclick ="createGrid()">
+        Create Grid
+    </button>
+
+    <button class="randomButton grid-button" onclick ="changeColorRandom()">
+        Random Colors
+    </button>
+
+    <button class="sequenceButton grid-button" onclick ="sequence(false)">
+        Sequence
+    </button>
+
+    <button class="stopButton grid-button" onclick ="stop()">
+        Stop
+    </button>
+    
+    <br><br>
+    <main class="centerelm">
+        <div id="grid"></div>
+    
+        <script src="app.js"></script>
+    </main>
+        <div style:="grid-row: 3/4" class="rightbanner"><iframe frameBorder="0" height="152px" src="https://giphy.com/embed/dRFwoSFjkfhSwxszrh/video" width="270"></iframe></div>
+        <div class="rightbanner" style:="grid-row: 4/5"><iframe frameBorder="0" height="152px" src="https://giphy.com/embed/h5vgWczNDkMHo2psK3/video" width="270"></iframe></div>
+        <iframe class="rightbanner" style:="grid-row: 5/6"src="https://giphy.com/embed/4NrISWWDDGuiIw3SMf" width="270" height="152px" frameBorder="0" class="giphy-embed"></iframe>
+        <iframe style:="grid-row: 6/7" class="rightbanner"src="https://giphy.com/embed/RMNzkNDJ3zx4UtJayd" width="270" height="152px" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+    </body>
+    <footer style="grid-column: 1/4; text-align:center;">
+        &copy Copy Right Timothy Huneck 2023
+    </footer>
+    </html>
