@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="./node_modules/@popperjs/core/dist/umd/popper-base.js"></script>
+    <title>TFHuneck Portfolio Landingpage</title>
+</head>
+<body class="container-fluid">
+    <nav class="nav nav-pills nav-fill">
+        <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+        <a class="nav-link active" href="./projects.html">MITXpro Projects</a>
+        <a class="nav-link" href="https://www.linkedin.com/in/timothy-huneck-b349a9a6/">LinkedIn</a>
+        <a class="nav-link" href="https://github.com/tfhuneck">Github</a>
+    </nav>
+
+    <main class="projects">
+
+        <div class="project-header">
+            <h2>MIT XPro PacMen Exercise</h2>
+            Github Repository: <a href="https://github.com/tfhuneck/mitxpro-pacmen-exercise">https://github.com/tfhuneck/mitxpro-pacmen-exercise</a> <br>
+            This Exercise will create as many Pacman imgage elements as you like. 
+            To get started press the Add PacMan button to add PacMen. <br>
+            Then press the start Game button to start the animation of the pacmen moving across the window.
+        </div>
+        <iframe class="project-frame" src="./pacmen/pacman.html" frameborder="0"></iframe>
+        
+        <div class="project-header">
+            <h2>MIT XPro Tracking Eyes Exercise</h2>
+            Github Repository: <a href="https://github.com/tfhuneck/mitxpro-eye-exercise">https://github.com/tfhuneck/mitxpro-eye-exercise</a> <br>
+            This Exercise tracks your mouse movement. The eyeballs in the center of the window are dynamic objects that track your mouse movements, <br>
+            and translate that into x and y coordinates to follow those movements. Move around the window to test it. 
+        </div>
+        <iframe class="project-frame" src="./eye-exercise/eyes.html" frameborder="0"></iframe>
+        <div class="project-header">
+            <h2>MIT XPro Real Time Bus Tracker Marker</h2>
+            Github Repository: <a href="https://github.com/tfhuneck/mitxpro-dynamic-map-marker">https://github.com/tfhuneck/mitxpro-dynamic-map-marker</a> <br>
+            This project uses an API from <a href="https://www.mapbox.com/">mapbox.com</a> to display a custom map with custom markers. <br>
+            This particular map is centered on the MIT campus in Boston. The marker shows a stop of a bus route near the campus. <br> 
+            If you press the button on top, you will see the route of that particalur bus lane with updating markers. 
+        </div>
+        <iframe class="project-frame" src="./mapmarker/mapmarker.html" frameborder="0"></iframe>
+        <div class="project-header">
+            <h2>Dynamic Grid DOM Generator</h2>
+            Github Repository: <a href="https://github.com/tfhuneck/grid">https://github.com/tfhuneck/grid</a> <br>
+            This project is a personal exercise to practice DOM (Document Objecgt Model) coding, where javascript funtions create and populate 
+            the html document with elements. Additionally, I used this exercise to demonstrate the use of the css grid styling to efficiently align objects in your document. <br>
+            Start with entering a grid size number in the Grid Size field. Then press Create Grid to create the grid of that size. If you will press any of the boxes 
+            created will change to a random color when clicked. Similarly, you can press Random Colors to change the color of all boxes at once, or press Sequence to change 
+            the color of the boxes in a sequence. The Stop button stops the sequencer, and the Reset button deletes the grid created.
+        </div>
+        <iframe class="project-frame" src="./Grid/grid.html" frameborder="0"></iframe>
+    </main>
+</body> 
+</html>
