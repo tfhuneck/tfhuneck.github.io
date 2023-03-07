@@ -10782,8 +10782,8 @@ body {
 .main-element {
   background: url("../images/Stone_transparent_15%.png") no-repeat center center fixed;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
-  background-position: center center;
   height: 100%;
   width: 100%;
   text-align: center;
@@ -11032,8 +11032,8 @@ h1, .h1 {
 .contact {
   background: url("../images/rock_transparent_15%.png") no-repeat center center fixed;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
-  background-position: center center;
   height: 100%;
   width: 100%;
   text-align: center;
